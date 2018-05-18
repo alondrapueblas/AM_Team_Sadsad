@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alondrapueblas.iexpense">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_track_launch"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_track_launch_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LogINActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NavBar"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BudgetActivity"
+            android:label="Add Budget" />
+        <activity
+            android:name=".Income_Act"
+            android:label="Income" />
+        <activity
+            android:name=".SignUpActivity"
+            android:label="Create An Account" />
+        <activity
+            android:name=".BillsActivity"
+            android:label="@string/title_activity_bills"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Add_IncomeAct"
+            android:label="Add Income" />
+        <activity
+            android:name=".Add_BillAct"
+            android:label="Add Bills Payment" />
+        <activity
+            android:name=".ExpensesActivity"
+            android:label="Expenses" />
+        <activity android:name=".Add_Expenses"
+            android:label="Add Expenses"></activity>
+    </application>
+
+</manifest>

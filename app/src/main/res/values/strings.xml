@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">iTracker</string>
+    <string name="title_activity_nav_bar">iTracker</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">About</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="acc"><b>No Account yet?<i><u>Create an Account</u></i></b></string>
+    <string name="title_activity_bills">Bills Payment</string>
+    <string name="tab_text_1">Paid</string>
+    <string name="tab_text_2">Overdue</string>
+    <string name="tab_text_3">Upcoming</string>
+    <string name="budtext">Set Monthly Budget and receive notifications when expenses going beyond budget.</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <array name="incomeList">
+        <item>Salary</item>
+        <item>Loan</item>
+        <item>Savings</item>
+        <item>Interest</item>
+        <item>Business and Profession</item>
+        <item>Mutual Funds</item>
+        <item>Brokerage</item>
+        <item>Rental Income</item>
+        <item>Selling Income</item>
+        <item>Gifts</item>
+        <item>Others</item>
+    </array>
+
+    <array name="ExBillsList">
+        <item>Food and Grocery</item>
+        <item>Shopping</item>
+        <item>Transportation</item>
+        <item>Health and Fitness</item>
+        <item>Personal Care</item>
+        <item>Kids Care</item>
+        <item>Travel and Vacation</item>
+        <item>Entertainment</item>
+        <item>Gifts and Donations</item>
+        <item>Education</item>
+        <item>Phone</item>
+        <item>Mobile</item>
+        <item>Internet</item>
+        <item>Credit Card</item>
+        <item>Loan</item>
+        <item>House Rent</item>
+        <item>House Maintenance</item>
+        <item>Property Tax</item>
+        <item>Electricity</item>
+        <item>Water Bill</item>
+        <item>Gas Bill</item>
+        <item>Insurance</item>
+        <item>Others</item>
+    </array>
+
+    <array name="numofDays">
+        <item>Remind 3 days before</item>
+        <item>Remind 5 days before</item>
+        <item>Remind 7 days before</item>
+        <item>Remind 10 days before</item>
+    </array>
+</resources>
